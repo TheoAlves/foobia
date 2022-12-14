@@ -1,0 +1,97 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<title>Foobias | Fobias</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="white">
+    
+    <script>
+        function trocaicone(icone){
+            document.getElementById("icone").src=(icone)
+        }
+    </script>
+</head>
+<body>
+        <header>
+                <div class="logo">
+                    <a href="index.html" title="Inicial"><img src="assets/foobias.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <div class="menu">
+                        <div class="mitems">
+                            <ul>
+                                <li onmouseover="trocaicone('assets/question.png')" onmouseout="trocaicone('assets/logo.png')"><a  href="oq.html">O que é</a></li>    
+                                <li onmouseover="trocaicone('assets/perigo.png')" onmouseout="trocaicone('assets/logo.png')"><a class="ativo" href="">Fobias</a></li>
+                                <li onmouseover="trocaicone('assets/lupa.png')" onmouseout="trocaicone('assets/logo.png')"><a href="curiosidades.html">Curiosidades</a></li>
+                                <li onmouseover="trocaicone('assets/sobre.png')" onmouseout="trocaicone('assets/logo.png')"><a href="sobre.html">Sobre Nós</a></li>
+                            </ul>
+                        </div> 
+                       <div class="mimg">
+							<img src="assets/logo.png" id="icone" alt="">
+						</div>
+                    </div>
+                </nav>	
+			</header>
+		<main> 
+			<section>
+				<h1>Quais são?</h1>
+				<h2>As fobias mais comuns entre nós</h2>
+				<p>O estresse e as pressões da vida moderna têm levado cada vez mais pessoas a desenvolver transtornos mentais, que muitas vezes passam despercebidos ou são ignorados, podendo evoluir para problemas de saúde mais sérios. Muitas fobias são vistas como “medos bobos” e acabam não recebendo a atenção merecida, o que faz com que a pessoa sofra calada ou isole-se do convívio familiar e social.</p>
+				<p>Conforme informações do Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5), indivíduos com fobia específica têm até 60% mais probabilidade de cometer suicídio do que pessoas sem o diagnóstico. Porém, essas taxas elevadas podem estar ligadas principalmente à comorbidade com transtornos de personalidade ou outros transtornos ansiosos.</p>
+				<p>Milhares de fobias já foram descritas, classificadas e documentadas, mas algumas delas são mais comuns, como as listadas abaixo.</p>
+			</section>
+			<aside>
+				<h3>Aqui estão:</h3>
+				<a href="aracnofobia.html">
+					<img src="assets/icon-aranha.png">
+					<p>Aracnofobia</p>
+				</a>
+				<a href="claustrofobia.html">
+					<img src="assets/icon-tunel.png">
+					<p>Claustrofobia</p>
+				</a>
+				<a href="coulrofobia.html">
+					<img src="assets/icon-palhaço.png">
+					<p>Coulrofobia</p>
+				</a>
+				<a href="fobia_social.html">
+					<img src="assets/icon-social.png">
+					<p>Fobia social</p>
+				</a>
+				<a href="talassofobia.html">
+					<img src="assets/icon-mar.png">
+					<p>Talassofobia</p>
+				</a>
+				<a href="aicmofobia.html">
+					<img src="assets/icon-injeção.png">
+					<p>Aicmofobia</p>
+				</a>
+			</aside>
+		</main>
+        <footer>
+			<p>Todos os direitos reservados © Théo Alves Dantas</p>
+			<a href="https://www.instagram.com/theo_alves_dant/" target="_blank" title="Me siga"><img src="assets/insta.png" height="30px" ></a>
+		</footer>
+</body>
+</html>
